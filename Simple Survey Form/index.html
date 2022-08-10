@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Survey Form</title>
+    <link rel='stylesheet' href='styles.css' />
+  </head>
+  <body>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Example survey form to collect user data</p>
+    <form id='survey-form'>
+      <fieldset>
+        <label id='name-label'>Name: <input id='name' type="text" name="first-name" required placeholder='Enter your name'/></label>
+        <label id='email-label'>Email: <input id='email' type="email" name="email" required placeholder='Enter your Email'/></label>
+        <label id='number-label'>Enter a number between 0-9 (up to 10 digits): <input id='number' type="number" name="number" pattern="[0-9]{1,10}" required placeholder='Enter your number'/></label>
+      </fieldset>
+      <fieldset>
+        <label>Example Dropdown?
+          <select id='dropdown' name='dropdown'>
+            <option value="">(Select one)</option>
+            <option value='1'>Placeholder1</option>
+            <option value='2'>Placeholder2</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label><input type="radio" name="radio" class="inline" checked/> Radio option 1</label>
+        <label><input type="radio" name="radio" class="inline" /> Radio option 2</label>
+        <label><input type="radio" name="radio" class="inline" /> Radio option 3</label>
+      </fieldset>
+      <fieldset>
+        <label>
+          <input type='checkbox' value='1'class="inline"> Checkbox1
+        </label>
+        <label>
+          <input type='checkbox' value='2'class="inline"> Checkbox2
+        </label>
+        <label>
+          <input type='checkbox' value='3'class="inline"> Checkbox3
+        </label>
+        <label>
+          <input type='checkbox' value='4'class="inline"> Checkbox4
+        </label>
+        <label>
+          <input type='checkbox' value='5'class="inline"> Checkbox5
+        </label>
+        <label>
+          <input type='checkbox' value='6'class="inline"> Checkbox6
+        </label>
+      </fieldset>
+       <label>Provide a comment:
+          <textarea name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        </label>
+      <input id='submit' type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
