@@ -12,7 +12,7 @@
       <fieldset>
         <label id='name-label'>Name: <input id='name' type="text" name="first-name" required placeholder='Enter your name'/></label>
         <label id='email-label'>Email: <input id='email' type="email" name="email" required placeholder='Enter your Email'/></label>
-        <label id='number-label'>Enter a number between 0-9 (up to 10 digits): <input id='number' type="number" name="number" pattern="[0-9]{1,10}" required placeholder='Enter your number'/></label>
+        <label id='number-label'>Enter a number between 0-9 (up to 10 digits): <input id='number' type="number" name="number" pattern="[]{1,10}" min='0'max='9999999999'  required placeholder='Enter your number'/></label>
       </fieldset>
       <fieldset>
         <label>Example Dropdown?
