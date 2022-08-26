@@ -1,0 +1,89 @@
+/*clear default styling */
+*{
+  margin:0;
+padding:0;
+border:0;
+outline:0;
+vertical-align:baseline;
+background:transparent;
+}
+/* adding my styling */
+#title, h2, #main{
+  color: #444;
+  text-align: center;
+}
+#title{
+  font-family: 'Monoton', cursive;
+  font-size: 4em;
+  margin-bottom: -10px;
+}
+.pink{
+  color: #f0a1b4;
+}
+#sub-title{
+  font-family: 'Codystar', cursive;
+  margin-bottom: 30px;
+}
+#main{
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Roboto Mono', monospace;
+}
+#cover{
+  text-align: center;
+}
+#image{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+#img-caption{
+  margin-bottom: 5em;
+  font-size: .8em;
+}
+#tribute-info{
+  margin: 0 auto;
+  //text-align: center;
+  width: 60%;
+  line-height: 2em;
+  letter-spacing: .1em;
+}
+.bp-date{
+  display: inline-block;
+  border-bottom: 6px solid #f0a1b4;
+  margin: .4em 0;
+}
+#tribute-link{
+  //text-decoration: none;
+  color: #f0a1b4;
+}
+#tribute-link:hover{
+  color: black;
+}
+.bp-closing{
+  margin: 5em 0;
+  font-weight: 750;
+}
+footer{
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10em;
+  background-color: #f0a1b4;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: white;
+  line-height: 2em;
+  letter-spacing: .1em;
+}
+footer a{
+  color: white;
+}
+footer a:hover{
+  color: black;
+}
+@media (max-width: 768px) {
+  #tribute-info {
+    width: 80%;
+  }
