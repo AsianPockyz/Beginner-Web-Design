@@ -1,4 +1,4 @@
-Build a Tribute Page
+Build a Tribute Page: I chose to make a blackpink tribute page
 Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
 User Stories:
